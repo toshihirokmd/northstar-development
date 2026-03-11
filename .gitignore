@@ -1,0 +1,49 @@
+# Northstar Development Project - .gitignore
+
+# Personal sensitive information
+*.secret
+*.private
+personal-notes/
+sensitive-data/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+
+# Research data (if containing personal information)
+research/personal-data/
+
+# Experiment results (if containing customer data)
+experiments/customer-data/
+
+# Log files
+*.log
+
+# Node modules (if any JS tools are added)
+node_modules/
+npm-debug.log*
+
+# Python (if any Python tools are added)
+__pycache__/
+*.py[cod]
+*$py.class
